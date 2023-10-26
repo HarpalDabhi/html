@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Of Input Tags</title>
+</head>
+
+<body>
+    <section>
+        <form action="false" method="get">
+            <div>
+                <label for="Surname">Surname :</label>
+                <input type="text" name="Surname" autofocus="autofocus">
+            </div>
+
+            <div>
+                <label for="Firstname">First Name :</label>
+                <input type="text" name="Firstname">
+            </div>
+
+
+            <div>
+                <label for="Lastname">Last Name :</label>
+                <input type="text" name="Lastname">
+            </div>
+
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+            </div>
+
+            <div>
+                <input type="checkbox" name="check" id="checkbox">
+                <span>I heard your policy and services.</span>
+            </div>
+
+            <div>
+                <label for="color">Favourite Color :</label>
+                <input type="color" name="color" id="color">
+            </div>
+
+            <div>
+                <label for="birthdate">Birth Date :</label>
+                <input type="date" name="birthdate" id="date">
+            </div>
+
+            <div>
+                <label for="file">Upload your profile photo :</label>
+                <input type="file" name="file" id="file">
+            </div>
+
+            <div>
+                <label for="url">Web Url :</label>
+                <input type="url" name="url" id="url">
+            </div>
+
+            <div>
+                <label for="week">Week of Study :</label>
+                <input type="week" name="week" id="week">
+            </div>
+
+            <div>
+                <label for="month">Week of Month :</label>
+                <input type="month" name="month" id="month">
+            </div>
+
+            <div>
+                <label for="telephone">Telephone :</label>
+                <input type="tel" name="telephone" id="telephone" pattern="[0-9]{10}">
+            </div>
+
+            <div>
+                <label for="search">Search :</label>
+                <input type="search" name="search" id="search">
+            </div>
+            <input type="range" name="range" id="range" value="33">
+            <div>
+                <textarea name="textarea" id="textarea" cols="30" rows="2">Write..</textarea>
+            </div>
+            <div>
+                <p>Gender :</p>
+                <input type="radio" id="male" name="fav_language" value="M">
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="fav_language" value="F">
+                <label for="female">Female</label><br>
+                <input type="radio" id="other" name="fav_language" value="O">
+                <label for="other">Other</label>
+            </div>
+
+            <div>
+                <select name="branch" id="branch">
+                    <option value="ce" selected="selected">CE</option>
+                    <option value="me">ME</option>
+                    <option value="ee">EE</option>
+                    <option value="civil" disabled="disabled">Civil</option>
+                </select>
+            </div>
+        </form>
+    </section>
+    <article>
+        <fieldset>
+            <legend>Calams</legend>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores corporis, maxime blanditiis perferendis necessitatibus nisi sed tempore saepe aliquid voluptas cupiditate architecto voluptatibus doloremque magnam repellat deleniti impedit repellendus commodi.</p>
+        </fieldset>
+    </article>
+
+        <input list="browsers">
+    <datalist id="browsers">
+        <option value="Internet Explorer">
+        <option value="Firefox">
+        <option value="Chrome">
+        <option value="Opera">
+        <option value="Safari">
+      </datalist>
+</body>
+
+</html>
